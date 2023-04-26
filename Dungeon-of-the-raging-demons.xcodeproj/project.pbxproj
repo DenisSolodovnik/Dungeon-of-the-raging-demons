@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F305BC2029EB02E400A985A5 /* GameCenterControllerModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F305BC1E29EB02E400A985A5 /* GameCenterControllerModel.cpp */; };
+		F33DCFD829D3661B006FE2B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F33DCFD729D3661B006FE2B8 /* AppDelegate.m */; };
+		F33DCFDB29D3661B006FE2B8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F33DCFDA29D3661B006FE2B8 /* SceneDelegate.m */; };
+		F33DCFE329D3661C006FE2B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33DCFE229D3661C006FE2B8 /* Assets.xcassets */; };
+		F33DCFE629D3661C006FE2B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33DCFE429D3661C006FE2B8 /* LaunchScreen.storyboard */; };
+		F33DCFE929D3661C006FE2B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F33DCFE829D3661C006FE2B8 /* main.m */; };
+		F33DD00129D36710006FE2B8 /* GameScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = F33DCFF829D36710006FE2B8 /* GameScreenController.m */; };
+		F33DD00229D36710006FE2B8 /* RoomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33DCFFC29D36710006FE2B8 /* RoomView.xib */; };
+		F33DD00329D36710006FE2B8 /* RoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F33DCFFD29D36710006FE2B8 /* RoomView.m */; };
+		F38A75972A49673700B0A0E4 /* GameManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = F38A75962A49673700B0A0E4 /* GameManager.mm */; };
+		F38A76B72A49AF1700B0A0E4 /* GameScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38A76B62A49AF1700B0A0E4 /* GameScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F305BC1E29EB02E400A985A5 /* GameCenterControllerModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameCenterControllerModel.cpp; sourceTree = "<group>"; };
+		F305BC1F29EB02E400A985A5 /* GameCenterControllerModel.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = GameCenterControllerModel.hpp; sourceTree = "<group>"; };
+		F33DCFD329D3661B006FE2B8 /* Dungeon-of-the-raging-demons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dungeon-of-the-raging-demons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33DCFD629D3661B006FE2B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F33DCFD729D3661B006FE2B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F33DCFD929D3661B006FE2B8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F33DCFDA29D3661B006FE2B8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F33DCFE229D3661C006FE2B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F33DCFE529D3661C006FE2B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F33DCFE729D3661C006FE2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33DCFE829D3661C006FE2B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F33DCFF029D36710006FE2B8 /* GameTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTypes.h; sourceTree = "<group>"; };
+		F33DCFF129D36710006FE2B8 /* CustomTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTypes.h; sourceTree = "<group>"; };
+		F33DCFF829D36710006FE2B8 /* GameScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScreenController.m; sourceTree = "<group>"; };
+		F33DCFFB29D36710006FE2B8 /* RoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomView.h; sourceTree = "<group>"; };
+		F33DCFFC29D36710006FE2B8 /* RoomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomView.xib; sourceTree = "<group>"; };
+		F33DCFFD29D36710006FE2B8 /* RoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomView.m; sourceTree = "<group>"; };
+		F33DCFFE29D36710006FE2B8 /* GameScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScreenController.h; sourceTree = "<group>"; };
+		F38A75962A49673700B0A0E4 /* GameManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GameManager.mm; sourceTree = "<group>"; };
+		F38A75982A49678B00B0A0E4 /* GameManager.hh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameManager.hh; sourceTree = "<group>"; };
+		F38A76B62A49AF1700B0A0E4 /* GameScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameScreen.xib; sourceTree = "<group>"; };
+		F38A76B82A49BF0600B0A0E4 /* GameConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConstants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F33DCFD029D3661B006FE2B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F33DCFCA29D3661B006FE2B8 = {
+			isa = PBXGroup;
+			children = (
+				F33DCFD529D3661B006FE2B8 /* Dungeon-of-the-raging-demons */,
+				F33DCFD429D3661B006FE2B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F33DCFD429D3661B006FE2B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F33DCFD329D3661B006FE2B8 /* Dungeon-of-the-raging-demons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F33DCFD529D3661B006FE2B8 /* Dungeon-of-the-raging-demons */ = {
+			isa = PBXGroup;
+			children = (
+				F38A75952A4966F200B0A0E4 /* Manager */,
+				F33DCFEF29D36710006FE2B8 /* DataTypes */,
+				F33DCFF229D36710006FE2B8 /* GameControllerModel */,
+				F33DCFF529D36710006FE2B8 /* GameScreen */,
+				F33DCFD629D3661B006FE2B8 /* AppDelegate.h */,
+				F33DCFD729D3661B006FE2B8 /* AppDelegate.m */,
+				F33DCFD929D3661B006FE2B8 /* SceneDelegate.h */,
+				F33DCFDA29D3661B006FE2B8 /* SceneDelegate.m */,
+				F33DCFE229D3661C006FE2B8 /* Assets.xcassets */,
+				F33DCFE429D3661C006FE2B8 /* LaunchScreen.storyboard */,
+				F33DCFE729D3661C006FE2B8 /* Info.plist */,
+				F33DCFE829D3661C006FE2B8 /* main.m */,
+			);
+			path = "Dungeon-of-the-raging-demons";
+			sourceTree = "<group>";
+		};
+		F33DCFEF29D36710006FE2B8 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				F33DCFF029D36710006FE2B8 /* GameTypes.h */,
+				F33DCFF129D36710006FE2B8 /* CustomTypes.h */,
+				F38A76B82A49BF0600B0A0E4 /* GameConstants.h */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		F33DCFF229D36710006FE2B8 /* GameControllerModel */ = {
+			isa = PBXGroup;
+			children = (
+				F305BC1F29EB02E400A985A5 /* GameCenterControllerModel.hpp */,
+				F305BC1E29EB02E400A985A5 /* GameCenterControllerModel.cpp */,
+			);
+			path = GameControllerModel;
+			sourceTree = "<group>";
+		};
+		F33DCFF529D36710006FE2B8 /* GameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F38A76B62A49AF1700B0A0E4 /* GameScreen.xib */,
+				F33DCFFE29D36710006FE2B8 /* GameScreenController.h */,
+				F33DCFF829D36710006FE2B8 /* GameScreenController.m */,
+				F33DCFFA29D36710006FE2B8 /* RoomView */,
+			);
+			path = GameScreen;
+			sourceTree = "<group>";
+		};
+		F33DCFFA29D36710006FE2B8 /* RoomView */ = {
+			isa = PBXGroup;
+			children = (
+				F33DCFFB29D36710006FE2B8 /* RoomView.h */,
+				F33DCFFC29D36710006FE2B8 /* RoomView.xib */,
+				F33DCFFD29D36710006FE2B8 /* RoomView.m */,
+			);
+			path = RoomView;
+			sourceTree = "<group>";
+		};
+		F38A75952A4966F200B0A0E4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F38A75962A49673700B0A0E4 /* GameManager.mm */,
+				F38A75982A49678B00B0A0E4 /* GameManager.hh */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F33DCFD229D3661B006FE2B8 /* Dungeon-of-the-raging-demons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33DCFEC29D3661C006FE2B8 /* Build configuration list for PBXNativeTarget "Dungeon-of-the-raging-demons" */;
+			buildPhases = (
+				F33DCFCF29D3661B006FE2B8 /* Sources */,
+				F33DCFD029D3661B006FE2B8 /* Frameworks */,
+				F33DCFD129D3661B006FE2B8 /* Resources */,
+				F3BB442629DF16E700545AB0 /* cpp_linter */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dungeon-of-the-raging-demons";
+			productName = "Dungeon-of-the-raging-demons";
+			productReference = F33DCFD329D3661B006FE2B8 /* Dungeon-of-the-raging-demons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F33DCFCB29D3661B006FE2B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F33DCFD229D3661B006FE2B8 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F33DCFCE29D3661B006FE2B8 /* Build configuration list for PBXProject "Dungeon-of-the-raging-demons" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F33DCFCA29D3661B006FE2B8;
+			productRefGroup = F33DCFD429D3661B006FE2B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F33DCFD229D3661B006FE2B8 /* Dungeon-of-the-raging-demons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F33DCFD129D3661B006FE2B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33DCFE629D3661C006FE2B8 /* LaunchScreen.storyboard in Resources */,
+				F33DD00229D36710006FE2B8 /* RoomView.xib in Resources */,
+				F33DCFE329D3661C006FE2B8 /* Assets.xcassets in Resources */,
+				F38A76B72A49AF1700B0A0E4 /* GameScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F3BB442629DF16E700545AB0 /* cpp_linter */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = cpp_linter;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\npython3 /Users/denissolodovnik/Projects/cpplint/cpplint.py --recursive --linelength=100 ./Dungeon-of-the-raging-demons/*\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F33DCFCF29D3661B006FE2B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F305BC2029EB02E400A985A5 /* GameCenterControllerModel.cpp in Sources */,
+				F33DCFD829D3661B006FE2B8 /* AppDelegate.m in Sources */,
+				F38A75972A49673700B0A0E4 /* GameManager.mm in Sources */,
+				F33DD00329D36710006FE2B8 /* RoomView.m in Sources */,
+				F33DCFE929D3661C006FE2B8 /* main.m in Sources */,
+				F33DCFDB29D3661B006FE2B8 /* SceneDelegate.m in Sources */,
+				F33DD00129D36710006FE2B8 /* GameScreenController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F33DCFE429D3661C006FE2B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F33DCFE529D3661C006FE2B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F33DCFEA29D3661C006FE2B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F33DCFEB29D3661C006FE2B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F33DCFED29D3661C006FE2B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CA8RFTMHW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dungeon-of-the-raging-demons/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DigitalMyollnir.Dungeon-of-the-raging-demons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F33DCFEE29D3661C006FE2B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CA8RFTMHW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dungeon-of-the-raging-demons/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DigitalMyollnir.Dungeon-of-the-raging-demons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F33DCFCE29D3661B006FE2B8 /* Build configuration list for PBXProject "Dungeon-of-the-raging-demons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33DCFEA29D3661C006FE2B8 /* Debug */,
+				F33DCFEB29D3661C006FE2B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33DCFEC29D3661C006FE2B8 /* Build configuration list for PBXNativeTarget "Dungeon-of-the-raging-demons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33DCFED29D3661C006FE2B8 /* Debug */,
+				F33DCFEE29D3661C006FE2B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F33DCFCB29D3661B006FE2B8 /* Project object */;
+}

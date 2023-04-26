@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GameScreenController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="fQq-uI-ymx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="OhQ-Ly-ein">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m4v-Pc-dcL">
+                    <rect key="frame" x="0.0" y="251.33333333333334" width="390" height="354.33333333333326"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w5o-Ne-lW6" customClass="RoomView">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="283.66666666666669"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oT4-yq-zIt">
+                            <rect key="frame" x="0.0" y="283.66666666666663" width="390" height="70.666666666666686"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="oT4-yq-zIt" secondAttribute="bottom" id="73j-kE-ywC"/>
+                        <constraint firstItem="oT4-yq-zIt" firstAttribute="top" secondItem="w5o-Ne-lW6" secondAttribute="bottom" id="Cxu-eu-iuZ"/>
+                        <constraint firstItem="oT4-yq-zIt" firstAttribute="leading" secondItem="m4v-Pc-dcL" secondAttribute="leading" id="HIA-HU-U2X"/>
+                        <constraint firstItem="oT4-yq-zIt" firstAttribute="height" secondItem="m4v-Pc-dcL" secondAttribute="height" multiplier="0.2" id="HkQ-W0-ZAP"/>
+                        <constraint firstItem="w5o-Ne-lW6" firstAttribute="top" secondItem="m4v-Pc-dcL" secondAttribute="top" id="VfG-uE-1P9"/>
+                        <constraint firstItem="w5o-Ne-lW6" firstAttribute="leading" secondItem="m4v-Pc-dcL" secondAttribute="leading" id="eWy-gE-Yuo"/>
+                        <constraint firstAttribute="trailing" secondItem="oT4-yq-zIt" secondAttribute="trailing" id="jU2-lX-eXm"/>
+                        <constraint firstAttribute="trailing" secondItem="w5o-Ne-lW6" secondAttribute="trailing" id="kDg-PI-Z2P"/>
+                        <constraint firstAttribute="width" secondItem="m4v-Pc-dcL" secondAttribute="height" multiplier="22:20" id="nkX-Cx-GmM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="m4v-Pc-dcL" secondAttribute="trailing" id="6RY-Pa-lex"/>
+                <constraint firstItem="m4v-Pc-dcL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="9QL-kN-VOT"/>
+                <constraint firstItem="m4v-Pc-dcL" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="G9G-QI-6se"/>
+                <constraint firstAttribute="trailing" secondItem="OhQ-Ly-ein" secondAttribute="trailing" id="PaO-uY-6nq"/>
+                <constraint firstAttribute="bottom" secondItem="OhQ-Ly-ein" secondAttribute="bottom" id="cCK-oK-baC"/>
+                <constraint firstItem="OhQ-Ly-ein" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rKo-BL-iUN"/>
+                <constraint firstItem="OhQ-Ly-ein" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rQM-fV-deV"/>
+            </constraints>
+            <point key="canvasLocation" x="32" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Logo" width="1024" height="1024"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
